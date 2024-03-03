@@ -223,7 +223,12 @@ The modeling toolkit provides a convenient way to train and evaluate regression 
   - MAE: 0.474
   - Spearman Correlation: 58.4%
 
+
 ### Model Comparison Summary
+
+We can also directly observe the evaluation of each model through these two graphs:
+![WhatsApp 图像2024-03-03于21 51 22_7ffcff8d](https://github.com/peter-b-k/ensemble-learning-qrt/assets/156606885/9320fe37-af31-45be-875b-526842cf48a1)
+![WhatsApp 图像2024-03-03于21 51 33_13ec4b26](https://github.com/peter-b-k/ensemble-learning-qrt/assets/156606885/115ba3f2-a98f-440b-ad55-fbc4a94463d3)
 
 Based on the results, we can observe that Random Forest and XGBoost generally perform better compared to other models for both FR and DE datasets. They exhibit lower Mean Squared Error (MSE) and Mean Absolute Error (MAE) and higher Spearman Correlation, indicating better predictive performance. Additionally, Random Forest and XGBoost models demonstrate relatively stable performance across different datasets and parameter configurations. However, the choice of the best model may depend on specific requirements and constraints of the problem domain.
 
