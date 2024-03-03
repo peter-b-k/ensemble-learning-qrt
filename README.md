@@ -1,13 +1,20 @@
 # Explanation for the Electricity Price 
 ## Description
 This project aims to model the electricity price from weather, energy and commercial data for two European  countries- France and Germany. Our object is to use several models to find out the best explanation for the price, and our evaluation method will be MSE, MAE and Spearman correlation. The models we want to compare are as follows: 
-· Decision Trees
-· Randoms Forests
-· Bagging
-· AdaBoost
-· Gradient Boost
-· Extra Tree
-· XGB
+- **Decision Trees** 
+- **Randoms Forests**
+- **Bagging** 
+- **AdaBoost**
+- **Gradient Boost**
+- **Extra Tree** 
+- **XGB**
+
+## Dependencies
+- **pandas** 
+- **numpy**
+- **matplotlib** 
+- **sklearn**
+- **xgboost**
 
 ## Exploratory Data Analysis (EDA)
 
@@ -48,7 +55,7 @@ Here's a brief summary of the preprocessing steps implemented in the code:
 
 By following these preprocessing steps, the data is cleaned, imputed, and transformed into a suitable format for further analysis and modeling. This ensures that the models trained on the data are robust and capable of making accurate predictions.
 
-## Featur Engineering
+## Feature Engineering
 Feature engineering involves creating new features or transforming existing ones to improve the predictive performance of machine learning models. Here are the key feature engineering techniques implemented in the project:
 
 ### Lagged Items
