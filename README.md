@@ -1,4 +1,4 @@
-# Explanation for the Electricity Price 
+# Ensemble Learning Project: Explanation for the Electricity Price 
 ## Description
 This project aims to model the electricity price from weather, energy and commercial data for two European  countries- France and Germany. Our object is to use several models to find out the best explanation for the price, and our evaluation method will be MSE, MAE and Spearman correlation. The models we want to compare are as follows: 
 - **Decision Trees** 
